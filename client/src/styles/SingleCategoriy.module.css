@@ -1,0 +1,129 @@
+.category_list{
+    width: 100%;
+    background: #191919;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+.title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.filter{
+    margin-top: 25px;
+    display: flex;
+}
+.filter>form{
+    display: flex;
+    gap: 25px;
+}
+.product_filter{
+    width: 230px;
+    height: 40px;
+    background: #212123;
+    border-radius: 8px;
+}
+.product_filter>input{
+    width: 90%;
+    height: 100%;
+    background: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 13px;
+    margin-left: 15px;
+    color: #616E74;
+}
+.button{
+    width: 100px;
+    background: #6C3EB8;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+}
+.product_list{
+    width: 100%;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.list {
+    width: calc(100%/5 - 20px);
+    background: #212123;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.product {
+    background: #212123;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%
+}
+.image {
+    width: 100%;
+    height: 230px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 410px);
+}
+
+.title {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.cat {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #B8B8B8;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 28px;
+}
+
+.info {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.prices {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #6C3EB8;;
+}
+.oldPrice {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration-line: line-through;
+    color: #576067;
+}
+.purchases {
+    color: #576067;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+}

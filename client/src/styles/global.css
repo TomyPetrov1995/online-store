@@ -1,0 +1,38 @@
+body{
+    background-color: #212123;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.app{
+    max-width: 1274px;
+    margin: 0 auto;
+}
+span{
+    color: #6C3EB8;
+    font-weight: bold;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: #576067;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+ul,li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+button,input{
+    border: none;
+    outline: none;
+}
+button:hover{
+    background: #8B57C6;
+}
